@@ -1,0 +1,23 @@
+= Mock RestTemplate example =
+
+This is a simple example with two different microservices with
+communication through restTemplate.
+
+The idea of this example is use a mock server of restTemplate to simulate
+a request between services.
+
+If you want more information you can take a look into:
+https://refactorizando.com/mock-resttemplate-spring
+
+== User microservice
+
+The first project is USER, this project has a restTemplate server
+using MockRestServiceServer.
+
+The idea behind this test is simulate the request to account to make a test
+
+== Account microservice
+
+This microservice is in charge on return an account of a user. So User
+is going to make a request to get that info.
+

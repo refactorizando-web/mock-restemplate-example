@@ -1,0 +1,12 @@
+= Mock RestTemplate example =
+
+This project named account is a simple example about the use
+of MockRestServiceServer.
+
+If you want to take a look:
+https://refactorizando.com/mock-resttemplate-spring
+
+== How does it run?
+This is a simple Spring Boot application so to run it
+
+    mvn spring-boot:run

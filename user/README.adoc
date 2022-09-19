@@ -1,0 +1,20 @@
+= Mock RestTemplate example =
+
+This is a simple example to see how can we make a mock to use with restTemplate
+using a MockRestServiceServer.
+
+If you want more information you can take a look into:
+https://refactorizando.com/mock-resttemplate-spring
+
+== How does it work?
+
+We have a test to simulate a restTemplate request using
+a MockRestServiceServer.
+
+To check it we can run the test UserControllerIT.
+
+== How does it run?
+This is a simple Spring Boot application so to run it
+
+    mvn spring-boot:run
+
